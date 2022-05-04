@@ -1,9 +1,15 @@
 # PwnedHunter
 
-Scrape employee names from search engine LinkedIn profiles. Convert to email format with Hunter.IO. Lookup Identified emails against HaveIBeenPwned.
+Scrape employee names from search engine LinkedIn profiles.
+
+Convert to email format with Hunter.IO.
+
+Lookup Identified emails against HaveIBeenPwned.
 
 ## Requirements
+
 HaveIBeenPwned API Key
+
 Hunter.io API Key
 
 ### Usage
