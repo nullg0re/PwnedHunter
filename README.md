@@ -49,7 +49,7 @@ options:
 ### Examples
 
 Gather employee names and email addresses from search engines and Hunter.io:<br>
-`$ python3 bridgekeeper.py --company "Example Ltd." --domain example.com --api {API_KEY} --depth 10 --output example-employees/ --debug`
+`$ python3 PwnedHunter.py --company "Example Ltd." --domain example.com --api {API_KEY} --depth 10 --output example-employees/ --debug`
 
 ### Features
 
