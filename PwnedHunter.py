@@ -19,6 +19,7 @@ if __name__ == '__main__':
     parser.add_argument("-d", "--depth",   type=int, help="Number of pages to search each search engine. Default: 5", default=5)
     parser.add_argument("-t", "--timeout", type=int, help="Specify request timeout. Default: 25", default=25)
     parser.add_argument("-o", "--output",  type=str, help="Directory to write username files to.")
+    parser.add_argument("-f", "--format",  type=str, help="Username format if not using Hunter.IO")
     parser.add_argument("--cookie",        type=str, help="File containing Google CAPTCHA bypass cookies")
     parser.add_argument("--proxy",         type=str, help="Proxy to pass traffic through: <ip:port>")
     parser.add_argument("--lower",         action="store_true", help="Force usernames to all lower case.")
